@@ -8,8 +8,8 @@ import { ViewWin32 } from '../../View/ViewWin32';
 
 const TextRunsTest: React.FC<{}> = () => {
   return (
-    <View focusable>
-      <TextWin32>
+    <View>
+      <TextWin32 focusable>
         <TextWin32>Text With </TextWin32>
         <TextWin32>Multiple Text </TextWin32>
         <TextWin32>Children [Runs]</TextWin32>
